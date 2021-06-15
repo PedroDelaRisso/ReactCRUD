@@ -1,5 +1,5 @@
 
-# Requerimentos por enquanto:
+# Instruções
 
 ## 1. Duas dependências são necessárias:
 
@@ -35,3 +35,5 @@ Dentro de `/server` execute o comando:
 ```
 node index.js
 ```
+
+O aplicativo roda em http://localhost:3000
