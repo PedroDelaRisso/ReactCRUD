@@ -26,9 +26,7 @@ function App() {
   };
 
   const getEmployees = () => {
-    Axios.get('http://localhost:3001/funcionarios', {
-
-    }).then((response) => {
+    Axios.get('http://localhost:3001/funcionarios').then((response) => {
       console.log(response);
     })
   }

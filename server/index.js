@@ -33,12 +33,12 @@ app.post('/cadastro', (req, res) => {
     )
 })
 
-app.get('/funcionarios', (res, req) => {
+app.get('/funcionarios', (req, res) => {
     db.query("SELECT * FROM employees", (err, result) => {
         if(err) {
-            console.log(err);
+            console.log(err)
         } else {
-            res.send(result);
+            res.send(result)
         }
     })
 })
