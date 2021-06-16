@@ -20,7 +20,19 @@ npm install axios
 
 ## 2. Servidor SQL rodando e uma tabela com o nome `employees` dentro.
 
-Eu pessoalmente uso XAMPP para iniciar o servidor SQL e o MySQL Workbench para gerenciar as tabelas.
+Eu pessoalmente uso XAMPP para iniciar o servidor SQL e o MySQL Workbench para gerenciar as tabelas. São necessárias colunas com os nomes:
+
+`id` com Not Null e autoincremento.
+
+`name` todas daqui para baixo com Not Null.
+
+`age`
+
+`gender`
+
+`position`
+
+`wage`
 
 ## 3. Inicialização
 
