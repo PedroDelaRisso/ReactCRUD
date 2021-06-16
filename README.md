@@ -49,3 +49,9 @@ node index.js
 ```
 
 O aplicativo roda em http://localhost:3000
+
+
+## Objetivos atuais:
+
+### 1. Dividir em telas
+### 2. Criar código com instrução SQL que cheque se a tabela existe e cria ela se ela não existir.
